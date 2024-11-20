@@ -1,0 +1,40 @@
+create database hazel create table hazel(
+SID int primary key auto_increment,
+Nameofproduct varchar (20) not null,
+NumberofItem varchar (5) not null,
+Price decimal (5,2)not null,
+expiredDate varchar(10) not null
+);
+
+insert into hazel (
+Nameofproduct,
+NumberofItem,
+Price,
+expiredDate
+)
+values
+("Max","5","5.00","2024-02-25"),
+("Fubgebar","4","8.00","2024-03-27"),
+("Hansel","3","7.00","2024-04-15"),
+("Noodles","2","11.00","2024-02-16"),
+("Milo","1","10.00","2024-01-19"),
+("Kopiko","2","15.00","2024-04-26"),
+("SafeGuard","1","21.00","2024-09-13"),
+("Toothpaste","2","8.00","2024-03-17"),
+("Sunsilk","3","8.00","2024-05-17"),
+("Royal","1","15.00","2024-04-27"),
+("CDO","2","30.00","2024-06-28"),
+("Argetina","3","28.00","2024-01-14"),
+("Nova","4","15.00","2024-04-17"),
+("Dynamite","5","5.00","2024-02-27"),
+("CreamSilk","2","8.00","2024-04-27"),
+("RollerCoaster","2","10.00","2024-04-29"),
+("Magic Sarap","1","6.00","2024-02-27"),
+("Pompom","4","5.00","2024-01-23"),
+("Breadpan","2","8.00","2024-04-28"),
+("Ketchup","2","5.00","2024-02-23"),
+("Piattos","3","15.00","2024-04-27"),
+("Surf","2","10.00","2024-02-24"),
+("Tide","1","13.00","2024-04-29"),
+("Energin","2","10.00","2024-01-27"),
+("Vcut","2","15.00","2024-05-26")
